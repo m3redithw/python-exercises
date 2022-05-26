@@ -48,7 +48,8 @@ True or "42" # True
 
 littlemermaid = 3
 hercules = 3
-totalpay = 5 * littlemermaid + 1 * hercules
+brotherbear = 5
+totalpay = 3 * littlemermaid + 5 * brotherbear + 1 * hercules
 print(totalpay)
 
 # Suppose you're working as a contractor for 3 companies: Google, Amazon and Facebook,
@@ -60,7 +61,11 @@ print(totalpay)
 google = 400
 amazon = 380
 facebook = 350
-totalpay = 10 * facebook + 6 * google + 4 * amazon
+googlehour = 6
+facebookhour = 10
+amazonhour = 4
+
+totalpay = facebookhour * facebook + googlehour * google + amazonhour * amazon
 print(totalpay)
 
 # A student can be enrolled to a class only if the class is not full and the class schedule does not conflict with her current schedule.
@@ -79,14 +84,19 @@ premium = notexpired
 print(people)
 print(premium)
 
-
-
-
-
+# Create a variable that holds a boolean value for each of the following conditions:
 username = 'codeup'
 password = 'notstrongpassword'
 
-len(password) >= 5
-len(password) <= 20
-password != username
-username[0] != ' ' and password[0] != ' '
+# the password must be at least 5 characters
+at_least_five_characters = len(password) >= 5
+
+# the username must be no more than 20 characters
+at_least_20_char = len(password) <= 20
+
+# the password must not be the same as the username
+not_the_same = password != username
+
+# bonus neither the username or password can start or end with whitespace
+username_no_white_space = username[0] != ' ' and username[-1] != ' '
+password_no_white_space = password[0] != ' ' and username[-1] != ' '
