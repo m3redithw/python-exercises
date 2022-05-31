@@ -126,3 +126,14 @@ def twelveto24(time):
     return result_time
 twelveto24('10:45pm')
 
+## Bonus write a function that does the opposite.
+## 20:14pm --> 8:14pm
+## 09:25am --> 09:25am
+def totwelve(time):
+    result_time = ''
+    if time[-2] == 'a':
+        result_time = time
+    else:
+        result_time = str(int(time[:-5])-12) + time[-5:]
+    return result_time
+totwelve('20:20pm')
