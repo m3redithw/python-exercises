@@ -93,6 +93,11 @@ for i in range(1,11):
     print(number, 'x', i, '=', int(number) * i)
     i += 1
 
+# num = input('Please enter a number: ')
+# num = int(num)
+# for i in range(1,11):
+#     print(f'{num} * {i} = {num * i}')
+
 ## ii. Create a for loop that uses print to create the output shown below.
 for i in range (1, 10):
     print(str(i)*i)
