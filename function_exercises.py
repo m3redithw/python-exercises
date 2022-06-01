@@ -1,7 +1,5 @@
 # q1. Define a function named is_two.
 # It should accept one input and return True if the passed input is either the number or the string 2, False otherwise.
-from os import remove
-
 
 def is_two(input):
     if input == '2' or input ==2:
@@ -18,6 +16,9 @@ def is_vowel(input):
         return True
     else:
         return False
+
+# def is_vowel(string):
+#     return len(string) == 1 and string.lower() in 'aeiou'
 
 is_vowel('i')
 
@@ -40,7 +41,7 @@ is_word('codeup')
 
 # q5. Define a function named calculate_tip. It should accept a tip percentage (a number between 0 and 1) and the bill total, and return the amount to tip.
 def calculate_tip(tip_percentage, bill_total):
-    return tip_percentage * bill_total
+    return tip_percentage * bill_total * 0.01
 
 # q6. Define a function named apply_discount. It should accept a original price, and a discount percentage, and return the price after the discount is applied.
 def apply_discount(original_price, discount):
