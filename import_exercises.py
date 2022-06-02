@@ -6,14 +6,8 @@ print(calculate_tip(15, 200))
 # q2. Read about and use the itertools module from the python standard library to help you solve the following problems:
 ## How many different ways can you combine the letters from "abc" with the numbers 1, 2, and 3?
 import itertools
-list(itertools.combinations('abc',1))
-# 3
-
-list(itertools.combinations('abc',2))
-# 3
-
-list(itertools.combinations('abc',3))
-# 1
+list(itertools.product('abc',[1,2,3]))
+# [('a', 1), ('a', 2), ('a', 3), ('b', 1), ('b', 2), ('b', 3), ('c', 1), ('c', 2), ('c', 3)]
 
 ## How many different combinations are there of 2 letters from "abcd"?
 list(itertools.combinations('abcd',2))
