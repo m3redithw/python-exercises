@@ -19,11 +19,14 @@
 
 ### Functions
 [functions_notes](https://github.com/m3redithw/python-exercises/blob/dfaf58bef82cce60fab3ffb6f898b3b82a5e4831/functions_notes.ipynb)
+
 [function_exercises](https://github.com/m3redithw/python-exercises/blob/dfaf58bef82cce60fab3ffb6f898b3b82a5e4831/function_exercises.py)
 
 ### Imports
 [import_notes](https://github.com/m3redithw/python-exercises/blob/dfaf58bef82cce60fab3ffb6f898b3b82a5e4831/import_notes.ipynb)
+
 [import_exercises.ipynb](https://github.com/m3redithw/python-exercises/blob/dfaf58bef82cce60fab3ffb6f898b3b82a5e4831/import_exercises.ipynb)
+
 [import_exercises.py](https://github.com/m3redithw/python-exercises/blob/dfaf58bef82cce60fab3ffb6f898b3b82a5e4831/import_exercises.py)
 
 ### Additional
