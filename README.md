@@ -1,4 +1,4 @@
-# Codeup Data Science Python Exercises
+## Codeup Data Science Python Exercises
 
 ### Introduction
 [python_introduction_exercises](python_introduction_exercises.py)
