@@ -25,7 +25,7 @@
 ### Imports
 [import_notes](import_notes.ipynb)
 
-[import_exercises.ipynb](import_exercises.ipynb)
+[import_exercises](import_exercises.ipynb)
 
 ### Additional
 [101_exercises_for_python_fundamentals](101_exercises_for_python_fundamentals.ipynb)
